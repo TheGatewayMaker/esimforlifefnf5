@@ -40,12 +40,12 @@ export default function Header() {
           </span>
         </Link>
 
-        <nav className="hidden md:flex items-center gap-1 lg:gap-2">
+        <nav className="hidden md:flex items-center gap-0 lg:gap-1">
           {NAV.map((n) => (
             <Link
               key={n.label}
               to={n.to}
-              className="px-5 py-2.5 text-sm font-semibold text-foreground/80 hover:text-accent transition-colors duration-300 relative group"
+              className="px-4 lg:px-5 py-2 md:py-2.5 text-xs md:text-sm font-semibold text-foreground/80 hover:text-accent transition-colors duration-300 relative group"
             >
               {n.label}
               <span className="absolute bottom-0 left-5 right-5 h-0.5 bg-accent scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
