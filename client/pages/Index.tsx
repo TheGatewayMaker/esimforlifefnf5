@@ -396,10 +396,10 @@ export default function Index() {
         id="support"
         className="relative py-24 md:py-40 lg:py-48 overflow-hidden"
       >
-        {/* Background decoration with yellow gradient */}
-        <div className="absolute inset-0 -z-10 opacity-30">
-          <div className="absolute bottom-0 left-0 w-96 h-96 bg-accent/20 rounded-full blur-3xl" />
-          <div className="absolute top-0 right-1/3 w-80 h-80 bg-accent/10 rounded-full blur-3xl" />
+        {/* Background decoration with smoothened yellow gradient */}
+        <div className="absolute inset-0 -z-10">
+          <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-gradient-to-tr from-accent/15 via-accent/8 to-transparent rounded-full blur-[100px]" />
+          <div className="absolute top-0 right-1/3 w-[450px] h-[450px] bg-gradient-to-br from-accent/8 via-accent/4 to-transparent rounded-full blur-[100px]" />
         </div>
 
         <div className="container">
