@@ -22,14 +22,14 @@ export default function Index() {
     <main className="relative">
       {/* Hero Section */}
       <section id="home" className="relative overflow-hidden">
-        {/* Enhanced decorative background elements with yellow gradient */}
+        {/* Enhanced decorative background elements with smooth yellow gradient */}
         <div className="absolute inset-0 -z-10">
-          {/* Top-right yellow gradient (primary accent) */}
-          <div className="absolute -top-40 -right-40 w-[500px] h-[500px] bg-gradient-to-br from-accent/30 to-accent/10 rounded-full blur-3xl" />
-          {/* Top-left accent glow */}
-          <div className="absolute -top-20 -left-20 w-96 h-96 bg-accent/15 rounded-full blur-3xl" />
-          {/* Bottom-right soft accent */}
-          <div className="absolute -bottom-40 right-20 w-80 h-80 bg-accent/10 rounded-full blur-3xl" />
+          {/* Top-right yellow gradient (primary accent) - smoothened */}
+          <div className="absolute -top-64 -right-64 w-[600px] h-[600px] bg-gradient-to-br from-accent/25 via-accent/15 to-transparent rounded-full blur-[100px]" />
+          {/* Top-left accent glow - smoothened */}
+          <div className="absolute -top-40 -left-40 w-[500px] h-[500px] bg-gradient-to-br from-accent/12 via-accent/8 to-transparent rounded-full blur-[100px]" />
+          {/* Bottom-right soft accent - smoothened */}
+          <div className="absolute -bottom-48 right-0 w-[450px] h-[450px] bg-gradient-to-tl from-accent/10 via-accent/5 to-transparent rounded-full blur-[100px]" />
         </div>
 
         <div className="container pt-10 sm:pt-16 pb-16 sm:pb-20 md:pt-20 md:pb-28 lg:pt-24 lg:pb-40 grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-12 lg:gap-16 items-center justify-center">
