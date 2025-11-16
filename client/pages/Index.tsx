@@ -165,10 +165,10 @@ export default function Index() {
 
       {/* Features Section */}
       <section id="features" className="relative py-24 md:py-40 lg:py-48 overflow-hidden">
-        {/* Subtle background accent */}
-        <div className="absolute inset-0 -z-10 opacity-40">
-          <div className="absolute top-0 left-0 w-96 h-96 bg-accent/5 rounded-full blur-3xl" />
-          <div className="absolute bottom-20 right-0 w-72 h-72 bg-accent/5 rounded-full blur-3xl" />
+        {/* Subtle background accent - smoothened */}
+        <div className="absolute inset-0 -z-10">
+          <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-gradient-to-br from-accent/8 via-accent/4 to-transparent rounded-full blur-[100px]" />
+          <div className="absolute bottom-0 right-0 w-[450px] h-[450px] bg-gradient-to-tl from-accent/6 via-accent/3 to-transparent rounded-full blur-[100px]" />
         </div>
         <div className="container">
           <div className="mb-16 md:mb-24 max-w-3xl">
