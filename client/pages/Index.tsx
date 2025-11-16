@@ -46,7 +46,9 @@ export default function Index() {
               Your Lifetime eSIM
             </h1>
             <p className="text-xl sm:text-2xl text-accent font-bold mb-4 sm:mb-5">
-              <span className="text-gradient text-2xl sm:text-3xl">Zero Expiry</span>
+              <span className="text-gradient text-2xl sm:text-3xl">
+                Zero Expiry
+              </span>
             </p>
 
             <p className="text-base sm:text-lg md:text-lg text-foreground/80 max-w-xl leading-relaxed mb-8 sm:mb-10 font-medium">
@@ -161,7 +163,10 @@ export default function Index() {
       </section>
 
       {/* Features Section */}
-      <section id="features" className="relative py-16 sm:py-24 md:py-40 lg:py-48 overflow-hidden">
+      <section
+        id="features"
+        className="relative py-16 sm:py-24 md:py-40 lg:py-48 overflow-hidden"
+      >
         {/* Subtle background accent - smoothened */}
         <div className="absolute inset-0 -z-10">
           <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-gradient-to-br from-accent/8 via-accent/4 to-transparent rounded-full blur-[100px]" />
@@ -264,7 +269,10 @@ export default function Index() {
       </section>
 
       {/* Refer & Earn Section */}
-      <section id="refer" className="relative py-16 sm:py-24 md:py-40 lg:py-48 overflow-hidden">
+      <section
+        id="refer"
+        className="relative py-16 sm:py-24 md:py-40 lg:py-48 overflow-hidden"
+      >
         {/* Subtle background accent - smoothened */}
         <div className="absolute inset-0 -z-10">
           <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-gradient-to-tl from-accent/12 via-accent/6 to-transparent rounded-full blur-[100px]" />

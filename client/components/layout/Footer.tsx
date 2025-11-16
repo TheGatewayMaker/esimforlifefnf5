@@ -23,7 +23,9 @@ export default function Footer() {
           </p>
         </div>
         <div>
-          <h4 className="font-bold mb-4 sm:mb-5 text-base sm:text-lg">Quick links</h4>
+          <h4 className="font-bold mb-4 sm:mb-5 text-base sm:text-lg">
+            Quick links
+          </h4>
           <ul className="space-y-2.5 sm:space-y-2 text-xs sm:text-sm text-foreground/80 font-medium">
             <li>
               <a
@@ -68,7 +70,9 @@ export default function Footer() {
           </ul>
         </div>
         <div>
-          <h4 className="font-bold mb-4 sm:mb-5 text-base sm:text-lg">Contact</h4>
+          <h4 className="font-bold mb-4 sm:mb-5 text-base sm:text-lg">
+            Contact
+          </h4>
           <ul className="space-y-2.5 sm:space-y-2 text-xs sm:text-sm text-foreground/80 font-medium">
             <li>
               Email:{" "}
