@@ -70,18 +70,18 @@ export default function Header() {
           <button
             aria-label="Toggle theme"
             onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-            className="inline-flex h-10 w-10 items-center justify-center rounded-lg border border-accent/20 bg-card hover:bg-accent/10 transition-all duration-300 hover:border-accent/40 shadow-sm"
+            className="inline-flex h-11 w-11 items-center justify-center rounded-lg border border-accent/30 bg-card hover:bg-accent/15 transition-all duration-300 hover:border-accent/50 shadow-sm hover:shadow-md"
           >
             {theme === "dark" ? (
               <Sun className="h-5 w-5 text-accent" />
             ) : (
-              <Moon className="h-5 w-5 text-foreground/60" />
+              <Moon className="h-5 w-5 text-foreground/70" />
             )}
           </button>
           <button
             onClick={() => setOpen((o) => !o)}
             aria-label="Menu"
-            className="md:hidden inline-flex h-10 w-10 items-center justify-center rounded-lg border border-accent/20 bg-card hover:bg-accent/10 transition-all duration-300 hover:border-accent/40 shadow-sm"
+            className="md:hidden inline-flex h-11 w-11 items-center justify-center rounded-lg border border-accent/30 bg-card hover:bg-accent/15 transition-all duration-300 hover:border-accent/50 shadow-sm hover:shadow-md"
           >
             <span className="sr-only">Menu</span>
             <div className="space-y-1.5">
