@@ -101,7 +101,7 @@ export default function Footer() {
                 @esim4lifechatbot
               </a>
             </li>
-            <li className="flex gap-3 pt-2">
+            <li className="flex gap-3 pt-4 sm:pt-3">
               <a
                 href="https://wa.me/message/4S3NPHUQR663C1"
                 target="_blank"
@@ -112,7 +112,7 @@ export default function Footer() {
                 <img
                   src="https://i.ibb.co/Q2YSt4V/whatsapp.png"
                   alt="WhatsApp"
-                  className="h-6 w-6"
+                  className="h-5 sm:h-6 w-5 sm:w-6"
                   loading="lazy"
                 />
               </a>
@@ -126,7 +126,7 @@ export default function Footer() {
                 <img
                   src="https://i.ibb.co/8gxkpRSv/telegram-1.png"
                   alt="Telegram"
-                  className="h-6 w-6"
+                  className="h-5 sm:h-6 w-5 sm:w-6"
                   loading="lazy"
                 />
               </a>
