@@ -32,7 +32,7 @@ export default function Index() {
           <div className="absolute -bottom-48 right-0 w-[450px] h-[450px] bg-gradient-to-tl from-accent/10 via-accent/5 to-transparent rounded-full blur-[100px]" />
         </div>
 
-        <div className="container pt-10 sm:pt-16 pb-16 sm:pb-20 md:pt-20 md:pb-28 lg:pt-24 lg:pb-40 grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-12 lg:gap-16 items-center justify-center">
+        <div className="container pt-8 sm:pt-12 md:pt-16 lg:pt-24 pb-12 sm:pb-16 md:pb-24 lg:pb-40 grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 lg:gap-16 items-center justify-center">
           {/* Left content */}
           <div className="flex flex-col justify-center order-2 lg:order-1">
             <div className="inline-flex items-center gap-3 sm:gap-4 mb-8 sm:mb-10 w-fit">
