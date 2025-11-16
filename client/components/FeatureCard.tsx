@@ -13,10 +13,10 @@ export default function FeatureCard({
     <div
       className="group relative rounded-2xl border overflow-hidden transition-all duration-300 h-full hover:-translate-y-2 hover:shadow-2xl"
       style={{
-        background: 'rgba(255, 255, 255, 0.06)',
-        backdropFilter: 'blur(10px)',
-        WebkitBackdropFilter: 'blur(10px)',
-        borderColor: 'rgba(255, 215, 0, 0.15)'
+        background: "rgba(255, 255, 255, 0.06)",
+        backdropFilter: "blur(10px)",
+        WebkitBackdropFilter: "blur(10px)",
+        borderColor: "rgba(255, 215, 0, 0.15)",
       }}
     >
       {/* Accent gradient overlay on hover */}
@@ -28,10 +28,10 @@ export default function FeatureCard({
         <div
           className="flex h-12 w-12 md:h-14 md:w-14 items-center justify-center rounded-lg md:rounded-xl text-accent flex-shrink-0 mb-4 shadow-md transition-all duration-300 group-hover:shadow-lg"
           style={{
-            background: 'rgba(255, 215, 0, 0.12)',
-            backdropFilter: 'blur(8px)',
-            WebkitBackdropFilter: 'blur(8px)',
-            borderColor: 'rgba(255, 215, 0, 0.2)'
+            background: "rgba(255, 215, 0, 0.12)",
+            backdropFilter: "blur(8px)",
+            WebkitBackdropFilter: "blur(8px)",
+            borderColor: "rgba(255, 215, 0, 0.2)",
           }}
         >
           {icon}

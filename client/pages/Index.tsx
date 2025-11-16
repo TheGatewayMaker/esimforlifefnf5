@@ -46,7 +46,10 @@ export default function Index() {
             </p>
 
             <p className="text-sm sm:text-base md:text-lg text-foreground/75 max-w-xl leading-relaxed mb-6 sm:mb-8">
-              esim4life.shop provides an international data eSIM that never expires. Permanent data and account validity across multiple countries, including Pakistan. Compatible with both PTA and non-PTA phones.
+              esim4life.shop provides an international data eSIM that never
+              expires. Permanent data and account validity across multiple
+              countries, including Pakistan. Compatible with both PTA and
+              non-PTA phones.
             </p>
 
             {/* Features chips */}
@@ -102,27 +105,43 @@ export default function Index() {
               <div className="stat">
                 <Wifi className="h-6 sm:h-7 md:h-8 w-6 sm:w-7 md:w-8 text-accent" />
                 <span className="stat-label text-xs">Connectivity</span>
-                <span className="stat-value text-lg sm:text-xl md:text-2xl">4G/5G</span>
+                <span className="stat-value text-lg sm:text-xl md:text-2xl">
+                  4G/5G
+                </span>
               </div>
               <div className="stat">
                 <Infinity className="h-6 sm:h-7 md:h-8 w-6 sm:w-7 md:w-8 text-accent" />
                 <span className="stat-label text-xs">Validity</span>
-                <span className="stat-value text-lg sm:text-xl md:text-2xl">Lifetime</span>
+                <span className="stat-value text-lg sm:text-xl md:text-2xl">
+                  Lifetime
+                </span>
               </div>
               <div className="stat">
                 <Globe2 className="h-6 sm:h-7 md:h-8 w-6 sm:w-7 md:w-8 text-accent" />
                 <span className="stat-label text-xs">Coverage</span>
-                <span className="stat-value text-lg sm:text-xl md:text-2xl">Global</span>
+                <span className="stat-value text-lg sm:text-xl md:text-2xl">
+                  Global
+                </span>
               </div>
               <div className="stat">
                 <Shield className="h-6 sm:h-7 md:h-8 w-6 sm:w-7 md:w-8 text-accent" />
                 <span className="stat-label text-xs">Security</span>
-                <span className="stat-value text-lg sm:text-xl md:text-2xl">Secure</span>
+                <span className="stat-value text-lg sm:text-xl md:text-2xl">
+                  Secure
+                </span>
               </div>
             </div>
 
             {/* Compatibility info */}
-            <div className="mt-4 sm:mt-5 md:mt-6 rounded-2xl border p-4 sm:p-5 md:p-6 text-center" style={{background: 'rgba(255, 255, 255, 0.05)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)', borderColor: 'rgba(255, 215, 0, 0.15)'}}>
+            <div
+              className="mt-4 sm:mt-5 md:mt-6 rounded-2xl border p-4 sm:p-5 md:p-6 text-center"
+              style={{
+                background: "rgba(255, 255, 255, 0.05)",
+                backdropFilter: "blur(10px)",
+                WebkitBackdropFilter: "blur(10px)",
+                borderColor: "rgba(255, 215, 0, 0.15)",
+              }}
+            >
               <p className="text-base sm:text-lg font-bold text-foreground mb-1 sm:mb-2">
                 Compatible with All Non-PTA Phones
               </p>
@@ -142,7 +161,9 @@ export default function Index() {
               Everything you need
             </h2>
             <p className="text-lg text-foreground/70 leading-relaxed">
-              Global compatibility, lifetime data, referral rewards, and seamless device transfers, wrapped in a premium, secure experience.
+              Global compatibility, lifetime data, referral rewards, and
+              seamless device transfers, wrapped in a premium, secure
+              experience.
             </p>
           </div>
 
@@ -182,7 +203,10 @@ export default function Index() {
       </section>
 
       {/* Buy Section */}
-      <section id="buy" className="relative py-20 md:py-32 lg:py-40 overflow-hidden">
+      <section
+        id="buy"
+        className="relative py-20 md:py-32 lg:py-40 overflow-hidden"
+      >
         {/* Background decoration */}
         <div className="absolute inset-0 -z-10 opacity-20">
           <div className="absolute top-0 right-0 w-96 h-96 bg-accent/20 rounded-full blur-3xl" />
@@ -204,7 +228,8 @@ export default function Index() {
             </div>
 
             <p className="text-base lg:text-lg text-foreground/70 leading-relaxed max-w-2xl mx-auto mb-12">
-              Choose your preferred platform to purchase. Our team will guide you through a quick, secure setup process.
+              Choose your preferred platform to purchase. Our team will guide
+              you through a quick, secure setup process.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center gap-4 w-full justify-center max-w-2xl mx-auto">
@@ -234,7 +259,9 @@ export default function Index() {
                 Refer & Earn
               </h2>
               <p className="text-lg text-foreground/70 leading-relaxed mb-8">
-                Invite friends and earn 500MB per successful referral with no limits. After three referrals, unlock a bonus scratch card with exclusive rewards.
+                Invite friends and earn 500MB per successful referral with no
+                limits. After three referrals, unlock a bonus scratch card with
+                exclusive rewards.
               </p>
 
               <div className="grid sm:grid-cols-2 gap-4">
@@ -257,26 +284,65 @@ export default function Index() {
               </div>
             </div>
 
-            <div className="rounded-2xl border p-8 shadow-xl" style={{background: 'rgba(255, 255, 255, 0.06)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)', borderColor: 'rgba(255, 215, 0, 0.15)'}}>
-              <h3 className="text-lg md:text-xl font-black mb-6 tracking-tight">How it works</h3>
+            <div
+              className="rounded-2xl border p-8 shadow-xl"
+              style={{
+                background: "rgba(255, 255, 255, 0.06)",
+                backdropFilter: "blur(10px)",
+                WebkitBackdropFilter: "blur(10px)",
+                borderColor: "rgba(255, 215, 0, 0.15)",
+              }}
+            >
+              <h3 className="text-lg md:text-xl font-black mb-6 tracking-tight">
+                How it works
+              </h3>
               <ol className="space-y-5 mb-8">
                 <li className="step flex items-start gap-4">
-                  <div className="flex-shrink-0 h-8 w-8 rounded-lg flex items-center justify-center text-xs font-bold text-accent" style={{background: 'rgba(255, 215, 0, 0.15)', backdropFilter: 'blur(8px)', WebkitBackdropFilter: 'blur(8px)'}}>
+                  <div
+                    className="flex-shrink-0 h-8 w-8 rounded-lg flex items-center justify-center text-xs font-bold text-accent"
+                    style={{
+                      background: "rgba(255, 215, 0, 0.15)",
+                      backdropFilter: "blur(8px)",
+                      WebkitBackdropFilter: "blur(8px)",
+                    }}
+                  >
                     1
                   </div>
-                  <span className="text-base leading-relaxed">Share your unique referral code with friends.</span>
+                  <span className="text-base leading-relaxed">
+                    Share your unique referral code with friends.
+                  </span>
                 </li>
                 <li className="step flex items-start gap-4">
-                  <div className="flex-shrink-0 h-8 w-8 rounded-lg flex items-center justify-center text-xs font-bold text-accent" style={{background: 'rgba(255, 215, 0, 0.15)', backdropFilter: 'blur(8px)', WebkitBackdropFilter: 'blur(8px)'}}>
+                  <div
+                    className="flex-shrink-0 h-8 w-8 rounded-lg flex items-center justify-center text-xs font-bold text-accent"
+                    style={{
+                      background: "rgba(255, 215, 0, 0.15)",
+                      backdropFilter: "blur(8px)",
+                      WebkitBackdropFilter: "blur(8px)",
+                    }}
+                  >
                     2
                   </div>
-                  <span className="text-base leading-relaxed">Your friend just installs the App and put your referral code (friend doesn't need to buy).</span>
+                  <span className="text-base leading-relaxed">
+                    Your friend just installs the App and put your referral code
+                    (friend doesn't need to buy).
+                  </span>
                 </li>
                 <li className="step flex items-start gap-4">
-                  <div className="flex-shrink-0 h-8 w-8 rounded-lg flex items-center justify-center text-xs font-bold text-accent" style={{background: 'rgba(255, 215, 0, 0.15)', backdropFilter: 'blur(8px)', WebkitBackdropFilter: 'blur(8px)'}}>
+                  <div
+                    className="flex-shrink-0 h-8 w-8 rounded-lg flex items-center justify-center text-xs font-bold text-accent"
+                    style={{
+                      background: "rgba(255, 215, 0, 0.15)",
+                      backdropFilter: "blur(8px)",
+                      WebkitBackdropFilter: "blur(8px)",
+                    }}
+                  >
                     3
                   </div>
-                  <span className="text-base leading-relaxed">Both will Get 500MBs instant. After 3 referrals you also get a scratch card of worth UPTO 300GBs of Data.</span>
+                  <span className="text-base leading-relaxed">
+                    Both will Get 500MBs instant. After 3 referrals you also get
+                    a scratch card of worth UPTO 300GBs of Data.
+                  </span>
                 </li>
               </ol>
 
@@ -306,7 +372,10 @@ export default function Index() {
       </section>
 
       {/* Support Section */}
-      <section id="support" className="relative py-20 md:py-32 lg:py-40 overflow-hidden">
+      <section
+        id="support"
+        className="relative py-20 md:py-32 lg:py-40 overflow-hidden"
+      >
         {/* Background decoration */}
         <div className="absolute inset-0 -z-10 opacity-20">
           <div className="absolute bottom-0 left-0 w-96 h-96 bg-accent/20 rounded-full blur-3xl" />
@@ -318,7 +387,9 @@ export default function Index() {
               Need Help?
             </h2>
             <p className="text-lg text-foreground/70 leading-relaxed mb-10">
-              Our dedicated support team is here to assist you 24/7. Contact us anytime on WhatsApp or Telegram for quick, professional assistance.
+              Our dedicated support team is here to assist you 24/7. Contact us
+              anytime on WhatsApp or Telegram for quick, professional
+              assistance.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center gap-4 w-full justify-center max-w-2xl mx-auto">

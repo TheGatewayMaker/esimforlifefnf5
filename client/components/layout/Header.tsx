@@ -15,8 +15,7 @@ export default function Header() {
   const [open, setOpen] = useState(false);
   const location = useLocation();
   const [theme, setTheme] = useState<string>(
-    () =>
-      localStorage.getItem("theme") || "dark",
+    () => localStorage.getItem("theme") || "dark",
   );
 
   useEffect(() => {
@@ -86,9 +85,24 @@ export default function Header() {
           >
             <span className="sr-only">Menu</span>
             <div className="space-y-1.5">
-              <span className={cn("block h-0.5 w-5 bg-foreground transition-all duration-300", open && "rotate-45 translate-y-2")}></span>
-              <span className={cn("block h-0.5 w-5 bg-foreground transition-all duration-300", open && "opacity-0")}></span>
-              <span className={cn("block h-0.5 w-5 bg-foreground transition-all duration-300", open && "-rotate-45 -translate-y-2")}></span>
+              <span
+                className={cn(
+                  "block h-0.5 w-5 bg-foreground transition-all duration-300",
+                  open && "rotate-45 translate-y-2",
+                )}
+              ></span>
+              <span
+                className={cn(
+                  "block h-0.5 w-5 bg-foreground transition-all duration-300",
+                  open && "opacity-0",
+                )}
+              ></span>
+              <span
+                className={cn(
+                  "block h-0.5 w-5 bg-foreground transition-all duration-300",
+                  open && "-rotate-45 -translate-y-2",
+                )}
+              ></span>
             </div>
           </button>
         </div>

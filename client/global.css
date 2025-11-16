@@ -122,12 +122,21 @@
 
   /* Light mode gradient background */
   :root body {
-    background: linear-gradient(135deg, hsl(var(--background)) 0%, hsl(0 0% 96%) 100%);
+    background: linear-gradient(
+      135deg,
+      hsl(var(--background)) 0%,
+      hsl(0 0% 96%) 100%
+    );
   }
 
   /* Dark mode gradient background with gold accent */
   .dark body {
-    background: linear-gradient(135deg, hsl(var(--background)) 0%, hsl(207 65% 4%) 50%, hsla(51, 100%, 50%, 0.15) 100%);
+    background: linear-gradient(
+      135deg,
+      hsl(var(--background)) 0%,
+      hsl(207 65% 4%) 50%,
+      hsla(51, 100%, 50%, 0.15) 100%
+    );
   }
 
   h1,
@@ -136,10 +145,7 @@
   h4,
   h5,
   h6 {
-    font-family:
-      "Playfair Display",
-      "Georgia",
-      serif;
+    font-family: "Playfair Display", "Georgia", serif;
     letter-spacing: -0.01em;
     color: hsl(var(--foreground));
     font-weight: 800;
@@ -190,13 +196,17 @@
     border-color: rgba(255, 215, 0, 0.15);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    box-shadow:
+      0 4px 6px rgba(0, 0, 0, 0.3),
+      inset 0 1px 0 rgba(255, 255, 255, 0.1);
   }
 
   .stat:hover {
     border-color: rgba(255, 215, 0, 0.3);
     background: rgba(255, 255, 255, 0.12);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.15);
+    box-shadow:
+      0 8px 16px rgba(0, 0, 0, 0.4),
+      inset 0 1px 0 rgba(255, 255, 255, 0.15);
     @apply -translate-y-1;
   }
   .stat-label {
