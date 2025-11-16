@@ -222,10 +222,10 @@ export default function Index() {
         id="buy"
         className="relative py-24 md:py-40 lg:py-48 overflow-hidden"
       >
-        {/* Background decoration with yellow gradient */}
-        <div className="absolute inset-0 -z-10 opacity-30">
-          <div className="absolute top-0 right-0 w-96 h-96 bg-accent/25 rounded-full blur-3xl" />
-          <div className="absolute bottom-0 left-1/4 w-80 h-80 bg-accent/15 rounded-full blur-3xl" />
+        {/* Background decoration with smoothened yellow gradient */}
+        <div className="absolute inset-0 -z-10">
+          <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-gradient-to-br from-accent/20 via-accent/10 to-transparent rounded-full blur-[100px]" />
+          <div className="absolute bottom-0 left-1/4 w-[450px] h-[450px] bg-gradient-to-tr from-accent/12 via-accent/6 to-transparent rounded-full blur-[100px]" />
         </div>
 
         <div className="container">
