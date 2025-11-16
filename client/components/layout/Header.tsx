@@ -48,7 +48,7 @@ export default function Header() {
               className="px-4 lg:px-5 py-2 md:py-2.5 text-xs md:text-sm font-semibold text-foreground/80 hover:text-accent transition-colors duration-300 relative group"
             >
               {n.label}
-              <span className="absolute bottom-0 left-5 right-5 h-0.5 bg-accent scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
+              <span className="absolute bottom-0 left-4 lg:left-5 right-4 lg:right-5 h-0.5 bg-accent scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
             </Link>
           ))}
         </nav>
