@@ -5,7 +5,7 @@ export default function Footer() {
         <div>
           <div className="flex items-center gap-2 mb-3">
             <img
-              src="https://i.ibb.co/rKHZQ6Wn/esim4lifelogo.png"
+              src="https://i.ibb.co/k2b407jw/esim4lifelogo.png"
               alt="esim4life logo"
               className="h-12 w-12 rounded-md"
               loading="lazy"
