@@ -28,7 +28,7 @@ export default function Header() {
         <Link to="/" className="flex items-center gap-3 group">
           <div className="relative">
             <img
-              src="https://i.ibb.co/rKHZQ6Wn/esim4lifelogo.png"
+              src="https://i.ibb.co/k2b407jw/esim4lifelogo.png"
               alt="esim4life logo"
               className="h-12 w-12 md:h-14 md:w-14 rounded-xl transition-transform duration-300 group-hover:scale-110 shadow-md"
               loading="lazy"
