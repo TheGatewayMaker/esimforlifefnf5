@@ -84,19 +84,17 @@ export default function Index() {
 
           {/* Right stats section */}
           <div className="order-1 lg:order-2 relative">
-            {/* Price highlight card */}
-            <div className="mb-8 rounded-2xl border border-accent/15 bg-gradient-to-br from-transparent via-transparent to-transparent p-8 backdrop-blur-xl shadow-xl" style={{background: 'rgba(255, 255, 255, 0.05)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)', borderColor: 'rgba(255, 215, 0, 0.2)'}}>
-              <div className="text-center">
-                <p className="text-sm font-bold text-accent/80 uppercase tracking-widest mb-2">
-                  Limited Time Offer
-                </p>
-                <h2 className="text-5xl lg:text-6xl font-black text-accent mb-3">
-                  999 PKR
-                </h2>
-                <p className="text-base lg:text-lg font-semibold text-foreground/70">
-                  Lifetime eSIM
-                </p>
-              </div>
+            {/* Price highlight */}
+            <div className="mb-12 text-center">
+              <p className="text-sm font-bold text-accent/80 uppercase tracking-widest mb-3">
+                Limited Time Offer
+              </p>
+              <h2 className="text-5xl lg:text-6xl font-black text-accent mb-2">
+                999 PKR
+              </h2>
+              <p className="text-base lg:text-lg font-semibold text-foreground/70">
+                Lifetime eSIM
+              </p>
             </div>
 
             {/* Stats grid */}
