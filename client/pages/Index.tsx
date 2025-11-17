@@ -118,10 +118,10 @@ export default function Index() {
                 <h2 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-black text-accent leading-tight">
                   <span>999</span> <span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl">PKR</span>
                 </h2>
+                <p className="text-base sm:text-lg md:text-xl font-black text-foreground mt-1 sm:mt-2">
+                  Lifetime eSIM
+                </p>
               </div>
-              <p className="text-base sm:text-lg md:text-xl font-black text-foreground mt-2 sm:mt-3">
-                Lifetime eSIM
-              </p>
             </div>
 
             {/* Stats grid */}
