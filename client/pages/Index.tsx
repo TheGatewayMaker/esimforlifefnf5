@@ -241,8 +241,8 @@ export default function Index() {
       >
         {/* Background decoration with smoothened yellow gradient */}
         <div className="absolute inset-0 -z-10">
-          <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-gradient-to-br from-accent/20 via-accent/10 to-transparent rounded-full blur-[100px]" />
-          <div className="absolute bottom-0 left-1/4 w-[450px] h-[450px] bg-gradient-to-tr from-accent/12 via-accent/6 to-transparent rounded-full blur-[100px]" />
+          <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-gradient-to-br from-accent/25 via-accent/12 to-transparent rounded-full blur-[100px]" />
+          <div className="absolute bottom-0 left-1/4 w-[450px] h-[450px] bg-gradient-to-tr from-accent/15 via-accent/8 to-transparent rounded-full blur-[100px]" />
         </div>
 
         <div className="container px-4 sm:px-0">
@@ -251,7 +251,7 @@ export default function Index() {
               Get Your eSIM Today
             </h2>
 
-            <div className="inline-flex flex-col sm:flex-row items-center sm:items-baseline gap-3 sm:gap-4 mb-10">
+            <div className="inline-flex flex-col sm:flex-row items-center sm:items-baseline gap-3 sm:gap-4 mb-8 sm:mb-10">
               <span className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-accent">
                 999 PKR
               </span>
@@ -260,9 +260,19 @@ export default function Index() {
               </span>
             </div>
 
+            {/* Global Coverage Highlight */}
+            <div className="mb-8 sm:mb-10 p-4 sm:p-5 rounded-xl border mx-auto w-fit"
+              style={{
+                background: "linear-gradient(135deg, rgba(255, 215, 0, 0.1) 0%, rgba(255, 215, 0, 0.05) 100%)",
+                borderColor: "rgba(255, 215, 0, 0.3)",
+              }}
+            >
+              <p className="text-xs sm:text-sm font-bold text-accent">✓ Works in 150+ Countries • ✓ Non-PTA Compatible</p>
+            </div>
+
             <p className="text-sm sm:text-base lg:text-lg text-foreground/75 leading-relaxed max-w-2xl mx-auto mb-10 sm:mb-12 lg:mb-14 font-medium">
               Choose your preferred platform to purchase. Our team will guide
-              you through a quick, secure setup process.
+              you through a quick, secure setup process. Get global connectivity with lifetime validity.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center gap-4 w-full justify-center max-w-2xl mx-auto">
