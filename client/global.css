@@ -258,7 +258,12 @@
     text-decoration: underline;
   }
   .price-badge {
-    @apply inline-flex items-center gap-2 rounded-full bg-accent text-accent-foreground px-6 py-2.5 font-bold text-sm shadow-lg transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
+    @apply inline-flex items-center gap-2 rounded-full bg-gradient-to-br from-accent via-accent to-accent/85 text-accent-foreground px-6 py-2.5 font-bold text-sm transition-all duration-300 hover:-translate-y-1;
+    box-shadow: 0 8px 20px rgba(255, 215, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  }
+
+  .price-badge:hover {
+    box-shadow: 0 12px 28px rgba(255, 215, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.3);
   }
 }
 
